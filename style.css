@@ -1,0 +1,83 @@
+body {
+            margin: 0;
+            padding: 0;     
+            overflow-x: hidden;   
+        }
+
+        h1 {
+            margin: 0;
+            padding: 20px;
+            text-align: center; 
+	    background-color: blueviolet;
+
+        }
+
+        #Btn {
+            background-color: #5b2e85;
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            border: 2px solid #4e4c4c;
+            color: #fff;
+            cursor: pointer;
+            margin:20px 50% 0px 50%;
+            transform: translateX(-50%);
+        }
+
+        .counter {
+            background-color: #cac16cc0;
+            border: 2px solid black;
+            width: 80vw;
+            height: 40vh;
+            margin: 20px 50% 20px 50%;
+            transform: translateX(-50%);
+            padding: 20px;
+            text-align: center;
+        }
+
+        label {
+            font-size: 120px;
+        }
+
+        button {
+            font-size: 15px;
+            padding-bottom:3px;
+            width: 90px;
+            height: 30px;
+            border:none;
+            background-color: cornflowerblue;
+            border-radius: 8px;
+            box-shadow: 0 0 2px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        #btn-d:hover {
+            background-color: navy;
+            color: #fff;
+        }
+
+        #btn-r:hover {
+            background-color: #dd0f0f;
+            color: #fff;
+        }
+
+        #btn-i:hover {
+            background-color:#006321;
+            color: #fff;
+        }
+
+        @media screen and (min-width: 393px) and (max-width:425px) {
+            .body {
+                width: 100vw;
+                margin: 0;
+                padding: 0;
+            }
+            .counter {
+                height: 220px;
+            }
+
+            button {
+                width: 80px;
+            }
+        }
