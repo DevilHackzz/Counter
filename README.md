@@ -1,6 +1,6 @@
 # Counter Web App
 
-![Counter Screenshot](https://devilhackzz.github.io/Counter/Screenshot/screenshot.png) <!-- Add a screenshot of your counter app here -->
+![Counter Screenshot](https://devilhackzz.github.io/Counter/Screenshots/screenshot.png) <!-- Add a screenshot of your counter app here -->
 
 ## Overview
 
